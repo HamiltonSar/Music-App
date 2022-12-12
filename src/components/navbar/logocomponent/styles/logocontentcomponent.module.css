@@ -1,0 +1,50 @@
+.logocontainer {
+    height: 100px;
+    width: 100px;
+}
+.logoimg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media screen and (min-width: 360px) {
+    .logocontainer{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    .logocontainer{
+        display: block;
+        width: 2em;
+        height: 2em;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .logocontainer{
+        width: 2.7em;
+        height: 2.7em;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .logocontainer{
+        width: 3.5em;
+        height: 3.5em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .logocontainer{
+        width: 4em;
+        height: 4em;
+    }
+
+}
+

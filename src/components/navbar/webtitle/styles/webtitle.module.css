@@ -1,0 +1,43 @@
+.webtitlecontainer {
+    text-align: center;
+    padding: 5px;
+}
+.webtitle {
+    color: white;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 360px) {
+    .webtitle{
+        font-size: 0.9em;
+    }
+  
+}
+
+@media screen and (min-width: 480px) {
+    .webtitle{
+        font-size: 1.2em;
+    }
+
+}
+@media screen and (min-width: 720px) {
+    .webtitle{
+        font-size: 1.2em;
+    }
+
+}
+@media screen and (min-width: 1080px) {
+    .webtitle{
+        font-size: 1.5em;
+    }
+
+}
+@media screen and (min-width: 1400px) {
+    .webtitle{
+        font-size: 1.7em;
+    }
+
+}

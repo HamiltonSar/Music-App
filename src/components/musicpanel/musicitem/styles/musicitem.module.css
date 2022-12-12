@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.musicitemcontainer {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    transition: linear 0.3s;
+}
+
+.musicitemcontainer:hover{
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);
+}
+
+.itemimgcontainer {
+    width: 100%;
+    height: 60%;
+}
+
+.itemimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.descriptdatacontainer{
+    padding: 0.2em;
+}
+
+.itemtitle {
+    padding: 0.2em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.itembuttoncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.itembuttonplay {
+    border: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(43, 42, 42);
+    font-size: 2em;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    transition: linear 0.4s;
+}
+
+.itembuttonplay:hover{
+    transform: scale(1.05);
+    background-color: red;  
+}
+
+.itembuttonplayicon {
+    margin-left: 10px;
+}
+
+
+
+@media screen and (min-width: 360px) {
+    .musicitemcontainer {
+        height: 20vh;
+    }
+    .descriptdatacontainer{
+        padding: 0.2em;
+    }
+    .itemtitle {
+        font-size: .8em;
+    }
+    .itembuttonplay {
+        padding: .6em;
+        font-size: 0.7em;
+    } 
+}
+
+
+@media screen and (min-width: 480px) {
+    .musicitemcontainer {
+        height: 25vh;
+    }
+    .descriptdatacontainer{
+        padding: 0.5em;
+    }
+    .itemtitle {
+        font-size: .8em;
+    }
+    .itembuttonplay {
+        padding: 0.7em;
+        font-size: 0.7em;
+    } 
+}
+
+
+@media screen and (min-width: 720px) {
+    .descriptdatacontainer{
+        padding: 0.2em;
+    }
+    .itemtitle {
+        font-size: .9em;
+        padding: 0.3em;
+    }
+    .itembuttonplay {
+        padding: .6em;
+        font-size: 0.7em;
+    } 
+}
+
+
+@media screen and (min-width: 1080px) {
+    .itemtitle {
+        padding: 0.3em;
+    }
+    .itembuttonplay {
+        padding: .6em;
+        font-size: 0.8em;
+    } 
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    .itemtitle {
+        padding: 0.4em;
+    }
+}
+ 

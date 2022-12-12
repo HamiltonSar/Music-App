@@ -1,0 +1,61 @@
+.linetimecontainer {
+    display: flex;
+    align-items: center;
+}
+.timerstartcont , .timerendcont {
+    width: 5%;
+}
+.timestart , .timesend{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.lineprogresscont {
+    width: 95%;
+}
+.lineprogress{
+    width: 100%;
+}
+
+
+@media screen and (min-width: 360px) {
+    .timerstartcont , .timerendcont {
+        width: 15%;
+    }
+    .timestart , .timesend{
+        font-size: 1em;
+    }
+    .lineprogresscont {
+        width: 90%;
+    }
+ 
+}
+
+/* @media screen and (min-width: 480px) {
+
+
+} */
+
+
+@media screen and (min-width: 720px) {
+    .timestart , .timesend{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+
+}
+
+@media screen and (min-width: 1400px) {
+    .timerstartcont , .timerendcont {
+        width: 5%;
+    }
+    .timestart , .timesend{
+        font-size: 1em;
+    }
+    .lineprogresscont {
+        width: 95%;
+    }
+
+}
+

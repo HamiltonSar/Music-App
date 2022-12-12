@@ -1,0 +1,53 @@
+.inputsearchcontainer {
+    width: 14em;
+    margin-right: 30px;
+}
+.inputsearch {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+
+@media screen and (min-width: 360px) {
+    .inputsearchcontainer{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    .inputsearchcontainer{
+        display: block;
+        width: 6em;
+    }
+    .inputsearch{
+        padding: 5px;
+    }
+    
+
+}
+@media screen and (min-width: 720px) {
+    .inputsearchcontainer{
+        width: 14em;
+
+    }
+
+}
+@media screen and (min-width: 1080px) {
+    .inputsearchcontainer{
+        width: 20em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .inputsearchcontainer{
+        width: 25em;
+    }
+    .inputsearch{
+        padding: 10px;
+    }
+
+}

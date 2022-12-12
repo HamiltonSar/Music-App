@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+.musicitemcontainer {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 20px;
+}
+
+
+@media screen and (min-width: 360px) {
+    .musicitemcontainer{
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .musicitemcontainer{
+        grid-template-columns: repeat(3 , 1fr);
+
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .musicitemcontainer{
+        grid-template-columns: repeat(3 , 1fr);
+
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .musicitemcontainer{
+        grid-template-columns: repeat(4 , 1fr);
+
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .musicitemcontainer{
+        grid-template-columns: repeat(5 , 1fr);
+
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .musicitemcontainer{
+        grid-template-columns: repeat(5 , 1fr);
+
+    }
+}

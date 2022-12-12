@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*General container*/
+
+.musicreproductorcore {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 17vh;
+}
+
+/**/
+
+
+.reproductorpanelcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.musicpostercontainer {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonsmanagercontainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.descriptmusiccontainer{
+    width: 100%;
+}
+
+.linetimecontainer {
+    width: 100%;
+}
+.managerpanelcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+@media screen and (min-width: 360px) {
+    .buttonsmanagercontainer{
+        width: 100%;
+    }
+    .musicpostercontainer{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 480px) {
+    
+
+}
+
+@media screen and (min-width: 720px) {
+    .musicpostercontainer{
+        display: block;
+    }
+    .musicpostercontainer {
+        width: 8%;
+    }
+    .buttonsmanagercontainer{
+        width: 92%;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .musicpostercontainer {
+        width: 7%;
+    }
+    .buttonsmanagercontainer{
+        width: 93%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .musicpostercontainer {
+        width: 5%;
+    }
+    .buttonsmanagercontainer{
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    
+
+}
+

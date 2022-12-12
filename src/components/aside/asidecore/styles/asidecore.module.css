@@ -1,0 +1,43 @@
+.asidecore {
+    background-color: rgb(32, 32, 32) ;
+    width: 10%;
+}
+
+
+@media screen and (min-width: 360px) {
+    .asidecore{
+        display: none;
+    }
+ 
+}
+
+
+@media screen and (min-width: 480px) {
+
+
+}
+
+@media screen and (min-width: 720px) {
+    .asidecore{
+        display: block;
+        width: 20%;
+    }
+
+}
+
+@media screen and (min-width: 1080px) {
+    .asidecore{
+        display: block;
+        width: 18%;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+    .asidecore{
+        display: block;
+        width: 15%;
+    }
+
+}
+

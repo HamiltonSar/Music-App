@@ -1,0 +1,28 @@
+.navbarcore {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr  6fr 2fr ;
+    justify-content: center;
+    align-items: center;
+    align-content: cente
+}
+
+
+
+@media screen and (min-width: 360px) {
+    .navbarcore{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+
+}
+@media screen and (min-width: 720px) {
+
+}
+@media screen and (min-width: 1080px) {
+
+}
